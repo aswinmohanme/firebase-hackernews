@@ -19,7 +19,8 @@
     "express": "node examples/express/server.js && webpack --watch",
     "build": "webpack -p",
     "dev": "webpack",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
   },
   "files": [
     "dist"
