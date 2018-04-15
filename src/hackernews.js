@@ -1,6 +1,6 @@
 const HN_DATABASE_URL = 'https://hacker-news.firebaseio.com'
 const HN_VERSION = 'v0'
-const stamp = () => typeof window === 'object' ? performance.now() : Date.now()
+const stamp = () => Date.now()
 
 class HNCache {
 	constructor() {
